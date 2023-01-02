@@ -1,3 +1,7 @@
+#btn-back, #input-submit, #btn-sign-up {
+  cursor: pointer;
+}
+
 header {
   display: flex;
   justify-content: space-between;
@@ -60,7 +64,8 @@ label {
 }
 
 .div-sign-up > button {
-  color: blue;
+  font-weight: 700;
+  color: hsl(193, 91%, 57%);
   text-decoration: underline;
 }
 
