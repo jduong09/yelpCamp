@@ -1,0 +1,93 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#btn-back {
+  display: flex;
+  align-items: center;
+  font-size: 1.15rem;
+}
+
+#btn-back > svg {
+  margin-right: .25rem;
+}
+
+#div-sign-in {
+  padding: 0 1rem 2rem 1rem;
+}
+
+#div-sign-in > h2 {
+  width: 80%;
+  font-size: 2.25rem;
+  margin-bottom: 2rem;
+}
+
+#div-sign-in > form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 1.5rem;
+  font-size: 1.15rem;
+}
+
+#input-username, #input-password {
+  display: block;
+  width: 100%;
+  padding: 1.5rem;
+  margin-top: 1rem;
+  background-color: #f0f0f0;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+#input-username::placeholder, #input-password::placeholder {
+  font-size: 1rem;
+}
+
+#input-submit {
+  padding: 1.25rem;
+  margin-bottom: 1rem;
+  background-color: hsl(0, 0%, 0%);
+  color: hsl(0, 0%, 100%);
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 1.15rem;
+}
+
+.div-sign-up > button {
+  color: blue;
+  text-decoration: underline;
+}
+
+.div-testimonial {
+  padding: 2rem 1rem;
+  background-color: #f1e4d4;
+}
+
+.div-testimonial > span {
+  display: block;
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 2.5rem;
+}
+
+.div-user-info {
+  display: flex;
+  align-items: center;
+}
+
+#img-user {
+  width: 40px;
+  height: 40px;
+  margin-right: .5rem;
+}
+
+#div-user-name {
+  margin-bottom: .25rem;
+  font-weight: 700;
+}
