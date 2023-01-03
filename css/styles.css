@@ -3,6 +3,10 @@ body {
   min-height: 100vh;
 }
 
+.hide {
+  display: none !important;
+}
+
 .btn-cta {
   cursor: pointer;
 }
@@ -11,7 +15,7 @@ header {
   padding: 2rem 1rem;
 }
 
-#img-logo {
+#img-logo, #img-footer-logo {
   display: block;
   width: 118px;
   height: 27px;
