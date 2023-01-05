@@ -1,3 +1,7 @@
+#img-nav-hamburger {
+  cursor: pointer;
+}
+
 header {
   padding: 3rem 1rem;
   display: flex;
@@ -5,12 +9,39 @@ header {
 }
 
 #img-nav-hamburger {
-  width: 24px;
-  height: 24px;
+  width: 32px;
+  height: 32px;
+  display: block;
+  padding: .125rem;
+  background-color: hsl(60, 67%, 95%);
+  border-radius: 4px;
+}
+
+nav {
+  position: relative;
+}
+
+nav > ul {
+  position: absolute;
+  right: 0;
+  top: 3.5rem;
+  width: 150px;
+  border: 1px solid black;
+  z-index: 4;
+  background-color: hsl(0, 0%, 100%);
+}
+
+nav > ul > li {
+  padding: 1rem;
+  border-bottom: 1px solid black;
+}
+
+nav > ul > li:last-of-type {
+  border-bottom: none;
 }
 
 main {
-  padding: 1rem;
+  padding: 0 1rem 1rem 1rem;
 }
 
 .div-campground-info, .div-testimonials, .div-campground-location {

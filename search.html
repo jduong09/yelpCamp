@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="./css/reset.css">
+  <link rel="stylesheet" type="text/css" href="./css/styles.css">
+  <link rel="stylesheet" type="text/css" href="./css/campgroundPage.css">
+  <script type="text/javascript" src="./js/campgroundPageMenu.js"></script>
+  <title>YelpCamp | Mount Ulap</title>
+</head>
+<body>
+  <header>
+    <h1><img id="header-logo" src="./Assets/Logo.svg" alt="YelpCamp Logo"/></h1>
+    <nav>
+      <img id="img-nav-hamburger" src="./Assets/Hamburger Menu.svg" alt="Hamburger icon for menu"/>
+      <ul class="hide">
+        <li><a href="home">Home</a></li>
+        <li><a href="settings">johndoe</a></li>
+        <li><a href="logout">Logout</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <div class="div-search-main">
+      <h2>Welcome to YelpCamp</h2>
+      <div>View our hand-picked campgrounds from all over the word, or add your own.</div>
+      <form>
+        <label>
+          <span><img id="img-search-icon" src="./Assets/Search Icon.svg" alt="Magnifier Icon"/></span>
+          <input id="input-search" type="text" placeholder="Search for camps"/>
+        </label>
+        <input id="input-submit" type="submit" value="Search"/>
+      </form>
+      <button id="btn-add-campground">Or add your own campground</button>
+    </div>
+    <div class="div-list-campgrounds">
+      <ul class="list-campgrounds">
+        <li class="list-item-campground">
+          <img class="img-campground" src="./Assets/Camp Images/High Quality Images/Mount Ulap.png"/>
+          <div class="div-campground-information">
+            <h3>Mount Ulap</h3>
+            <div>One of the most famous hikes in Benguet is Mt Ulap in Itogon.</div>
+            <button class="btn-view-campground">View Campground</button>
+          </div>
+        </li>
+        <li class="list-item-campground">
+          <img class="img-campground" src="./Assets/Camp Images/High Quality Images/Calagus Islands.jpg"/>
+          <div class="div-campground-information">
+            <h3>Calaguas Islands</h3>
+            <div>A paradise of islands that can rival the white sand beauty of Boracay.</div>
+            <button class="btn-view-campground">View Campground</button>
+          </div>
+        </li>
+        <li class="list-item-campground">
+          <img class="img-campground" src="./Assets/Camp Images/High Quality Images/Calagus Islands.jpg"/>
+          <div class="div-campground-information">
+            <h3>Onay Beach</h3>
+            <div>This is one of the best beach camping sites, beautiful and pristine.</div>
+            <button class="btn-view-campground">View Campground</button>
+          </div>
+        </li>
+        <li class="list-item-campground">
+          <img class="img-campground" src="./Assets/Camp Images/High Quality Images/Calagus Islands.jpg"/>
+          <div class="div-campground-information">
+            <h3>Seven Sisters Waterfall</h3>
+            <div>The Seven Sisters is the 39th tallest waterfall in Norway.</div>
+            <button class="btn-view-campground">View Campground</button>
+          </div>
+        </li>
+        <li class="list-item-campground">
+          <img class="img-campground" src="./Assets/Camp Images/High Quality Images/Calagus Islands.jpg"/>
+          <div class="div-campground-information">
+            <h3>Latik Riverside</h3>
+            <div>Philippines is one of the most dazzling countries in all of Asia.</div>
+            <button class="btn-view-campground">View Campground</button>
+          </div>
+        </li>
+        <li class="list-item-campground">
+          <img class="img-campground" src="./Assets/Camp Images/High Quality Images/Calagus Islands.jpg"/>
+          <div class="div-campground-information">
+            <h3>Buloy Springs</h3>
+            <div>This is one of the best beach camping sites, beautiful and pristine.</div>
+            <button class="btn-view-campground">View Campground</button>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </main>
+  <footer>
+    <img id="img-footer-logo" src="./Assets/Logo.svg" alt="YelpCamp Logo"/>
+  </footer>
+</body>
