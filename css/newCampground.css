@@ -1,0 +1,48 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#img-nav-hamburger {
+  width: 32px;
+  height: 32px;
+  display: block;
+  padding: .125rem;
+  background-color: hsla(30, 35%, 64%, 0.10);
+  border-radius: 4px;
+}
+
+main {
+  padding: 0 1rem 3rem 1rem;
+}
+
+.div-form-new-campground > h2 {
+  width: 80%;
+  font-size: 2.25rem;
+  margin-bottom: 2rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 1.5rem;
+}
+
+input, textarea {
+  display: block;
+  width: 100%;
+  margin-top: .75rem;
+  padding: 1.25rem;
+  background-color: hsl(0, 2%, 84%);
+  border-radius: 4px;
+}
+
+textarea {
+  line-height: 1.5rem;
+}
+
+#input-submit {
+  background-color: hsl(0, 0%, 0%);
+  color: hsl(0, 0%, 100%);
+  font-weight: 700;
+}
