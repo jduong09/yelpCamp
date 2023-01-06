@@ -21,6 +21,29 @@ header {
   height: 27px;
 }
 
+nav {
+  position: relative;
+}
+
+nav > ul {
+  position: absolute;
+  right: 0;
+  top: 3.5rem;
+  width: 150px;
+  border: 1px solid black;
+  z-index: 4;
+  background-color: hsl(0, 0%, 100%);
+}
+
+nav > ul > li {
+  padding: 1rem;
+  border-bottom: 1px solid black;
+}
+
+nav > ul > li:last-of-type {
+  border-bottom: none;
+}
+
 .div-landing {
   overflow: hidden;
 }

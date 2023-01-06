@@ -1,0 +1,116 @@
+#img-nav-hamburger, #input-submit, #btn-add-campground {
+  cursor: pointer;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#img-nav-hamburger {
+  width: 32px;
+  height: 32px;
+  display: block;
+  padding: .125rem;
+  background-color: hsla(30, 35%, 64%, 0.10);
+  border-radius: 4px;
+}
+
+main {
+  padding: 0 1rem 3rem 1rem;
+}
+
+.div-search-main {
+  padding: 2rem;
+  background-color: hsla(30, 35%, 64%, 0.10);
+  margin-bottom: 3rem;
+  border-radius: 4px;
+}
+
+.div-search-main > h2 {
+  font-size: 2.25rem;
+}
+
+.div-search-main > div {
+  width: 90%;
+  margin-bottom: 1rem;
+  line-height: 1.5rem;
+  font-size: 18px;
+}
+
+#label-search {
+  display: block;
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+#img-search-icon {
+  width: 16px;
+  height: 17px;
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+}
+
+#input-search {
+  display: block;
+  width: 100%;
+  height: auto;
+  padding: 1rem 2rem 1rem 2.5rem;
+  background-color: hsl(0, 0%, 100%);
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+#input-submit {
+  display: block;
+  width: 100%;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  background-color: hsl(0, 0%, 0%);
+  color: hsl(0, 0%, 100%);
+  font-weight: 700;
+  border-radius: 4px;
+}
+
+#btn-add-campground {
+  text-decoration: underline;
+  font-size: 18px;
+}
+
+.list-item-campground {
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+.img-campground {
+  display: block;
+  margin-bottom: 1rem;
+  border-radius: 4px;
+}
+
+.div-campground-information > h3 {
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.div-campground-information > div {
+  width: 80%;
+  margin-bottom: 1rem;
+}
+
+.btn-view-campground {
+  display: block;
+  width: 100%;
+  padding: 1rem;
+  font-weight: 700;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+footer {
+  padding: 0 1rem 4rem 1rem;
+}
