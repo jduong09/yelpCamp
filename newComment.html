@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="./css/reset.css">
+  <link rel="stylesheet" type="text/css" href="./css/styles.css">
+  <link rel="stylesheet" type="text/css" href="./css/newComment.css">
+  <script type="text/javascript" src="./js/campgroundPageMenu.js"></script>
+  <title>YelpCamp | Mount Ulap</title>
+</head>
+<body>
+  <header>
+    <h1><img id="img-logo" src="./Assets/Logo.svg" alt="YelpCamp logo"/></h1>
+    <nav>
+      <img id="img-nav-hamburger" src="./Assets/Hamburger Menu.svg" alt="Hamburger icon for menu"/>
+      <ul class="hide">
+        <li><a href="home">Home</a></li>
+        <li><a href="settings">johndoe</a></li>
+        <li><a href="logout">Logout</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <div class="div-new-comment">
+      <h2>Add New Comment</h2>
+      <form id="form-new-comment">
+        <label>
+          Description
+          <textarea name="textarea-description" form="form-new-comment" rows="7" placeholder="This was probably the best camp I've visited this past year, definitely recommend visiting any time soon."></textarea>
+        </label>
+        <input id="input-submit" type="submit" value="Post Comment"/> 
+      </form>
+    </div>
+  </main>
+  <footer>
+    <img id="img-footer-logo" src="./Assets/Logo.svg" alt="YelpCamp Logo"/>
+  </footer>
+</body>
