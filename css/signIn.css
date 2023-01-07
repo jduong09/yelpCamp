@@ -9,13 +9,13 @@ header {
   padding: 2rem 1rem 3rem 1rem;
 }
 
-#btn-back {
+#link-back-campgrounds {
   display: flex;
   align-items: center;
   font-size: 1.15rem;
 }
 
-#btn-back > svg {
+#link-back-campgrounds > svg {
   margin-right: .25rem;
 }
 

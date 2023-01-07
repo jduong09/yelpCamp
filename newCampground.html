@@ -9,7 +9,7 @@
   <link rel="stylesheet" type="text/css" href="./css/reset.css">
   <link rel="stylesheet" type="text/css" href="./css/styles.css">
   <link rel="stylesheet" type="text/css" href="./css/newCampground.css">
-  <script type="text/javascript" src="./js/campgroundPageMenu.js"></script>
+  <script type="text/javascript" src="./js/headerNavMenu.js"></script>
   <title>YelpCamp | New Campground</title>
 </head>
 <body>
@@ -18,7 +18,7 @@
     <nav>
       <img id="img-nav-hamburger" src="./Assets/Hamburger Menu.svg" alt="Hamburger icon for menu"/>
       <ul class="hide">
-        <li><a href="home">Home</a></li>
+        <li><a href="index.html">Home</a></li>
         <li><a href="settings">johndoe</a></li>
         <li><a href="logout">Logout</a></li>
       </ul>
@@ -34,7 +34,7 @@
         </label>
         <label>
           Price
-          <input id="input-campground-price" type="number" placeholder="$149"/>
+          <input id="input-campground-price" type="number" min="1" placeholder="$149"/>
         </label>
         <label>
           Image

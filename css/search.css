@@ -2,20 +2,6 @@
   cursor: pointer;
 }
 
-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-#img-nav-hamburger {
-  width: 32px;
-  height: 32px;
-  display: block;
-  padding: .125rem;
-  background-color: hsla(30, 35%, 64%, 0.10);
-  border-radius: 4px;
-}
 
 main {
   padding: 0 1rem 3rem 1rem;
@@ -74,7 +60,7 @@ main {
   border-radius: 4px;
 }
 
-#btn-add-campground {
+#link-add-campground {
   text-decoration: underline;
   font-size: 18px;
 }
@@ -109,8 +95,4 @@ main {
   font-weight: 700;
   border: 1px solid black;
   border-radius: 4px;
-}
-
-footer {
-  padding: 0 1rem 4rem 1rem;
 }

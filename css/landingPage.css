@@ -1,0 +1,66 @@
+.div-landing {
+  overflow: hidden;
+}
+
+#img-hero {
+  display: block;
+  width: auto;
+  height: 375px;
+  margin-left: -11rem;
+}
+
+.div-landing-description {
+  padding: 2rem 1rem;
+}
+
+.div-landing-description > h2, .div-landing-description > div {
+  width: 85%;
+}
+
+.div-landing-description > div {
+  margin-bottom: 1rem;
+  line-height: 1.5rem;
+}
+
+.list-features > li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.img-checkmark {
+  width: 24px;
+  height: 25px;
+  margin-right: .5rem;
+}
+
+#link-view-campgrounds {
+  display: block;
+  width: fit-content;
+  padding: 1rem 1.5rem;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(0, 0%, 0%);
+  border-radius: 4px;
+}
+
+.list-partners {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+#img-airbnb {
+  width: 83px;
+  height: 42px;
+}
+
+#img-booking {
+  width: 131px;
+  height: 42px;
+}
+
+#img-plum-guide {
+  width: 160px;
+  height: 42px;
+}
