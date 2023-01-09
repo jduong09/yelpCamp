@@ -81,6 +81,6 @@ const openCampgroundPage = (campground) => {
 };
 
 document.addEventListener('DOMContentLoaded', () => {
-  console.log(window.location);
-  openCampgroundPage(campground);
+  console.log(window.campground);
+  // openCampgroundPage(campground);
 })
