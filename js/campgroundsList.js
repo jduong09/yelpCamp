@@ -4,7 +4,8 @@ const openCampgroundPage = (campground) => {
 
   xhr.onload = () => {
     if (xhr.readyState === 4) {
-      const campgroundsList = xhr.response;
+      const campgroundsList = JSON.parse(xhr.response);
+
 
       const campgroundObj = campgroundsList[campground];
       console.log(campgroundObj);
