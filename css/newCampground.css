@@ -1,4 +1,4 @@
-#img-nav-hamburger {
+#img-nav-hamburger, #btn-submit {
   cursor: pointer;
 }
 
@@ -32,7 +32,7 @@ label {
   margin-bottom: 1.5rem;
 }
 
-input, textarea {
+input, textarea, button {
   display: block;
   width: 100%;
   margin-top: .75rem;
@@ -45,7 +45,7 @@ textarea {
   line-height: 1.5rem;
 }
 
-#input-submit {
+#btn-submit {
   background-color: hsl(0, 0%, 0%);
   color: hsl(0, 0%, 100%);
   font-weight: 700;
