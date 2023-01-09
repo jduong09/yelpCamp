@@ -1,5 +1,4 @@
 const openCampgroundPage = (campground) => {
-  console.log(campground);
   const xhr = new XMLHttpRequest();
 
   xhr.onload = () => {
@@ -13,7 +12,8 @@ const openCampgroundPage = (campground) => {
       window.location.href = './campgroundPage.html';
 
       const h2 = document.querySelector('h2');
-      h2.innerHTML = campground;
+      console.log(campgroundObj["Name"]);
+      h2.innerHTML = campgroundObj["Name"];
 
       const price = document.getElementById("campground-price");
       price.innerHTML = campgroundObj["Price"];
