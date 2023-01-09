@@ -1,4 +1,5 @@
 const openCampgroundPage = (campground) => {
+  console.log(campground);
   const xhr = new XMLHttpRequest();
 
   xhr.onload = () => {
