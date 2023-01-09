@@ -11,21 +11,47 @@ const openCampgroundPage = (campground) => {
 
       window.location.href = './campgroundPage.html';
 
-      const h2 = document.querySelector('h2');
-      console.log(campgroundObj["Name"]);
+      const main = document.querySelector('main');
+      main.innerHTML = '';
+
+      // Append img, divDescription, divTestimonials, divCampgroundLocation to main.
+
+      const divCampgroundInfo = document.createElement('div');
+      divCampgroundInfo.classList.add('div-campground-info');
+      const imgCampground = document.createElement('img');
+      imgCampground.classList.add('img-campground');
+      imgCampground.src = `../Assets/Camp Images/Compressed Images/${campground}.jpg`;
+      imgCampground.alt = `Image of ${campground}`;
+
+      const divDescription = document.createElement('div');
+
+      const h2 = document.createElement('h2');
       h2.innerHTML = campgroundObj["Name"];
 
-      const price = document.getElementById("campground-price");
-      price.innerHTML = campgroundObj["Price"];
+      const price = document.createElement('span');
+      price.id = 'campground-price';
+      price.innerHTML = `$${campgroundObj["Price"]}/night`;
 
-      const description = document.querySelector("div-campground-description");
+      const description = document.createElement("div");
+      description.classList.add("div-campground-description");
       description.innerHTML = campgroundObj["Description"];
+
+      const divSubmittor = document.createElement('div');
+      divSubmittor.classList.add('div-submittor');
 
       const submittorName = document.getElementById('submittor-name');
       submittorName.innerHTML = campgroundObj["Campground Submittor"];
 
-      const listTestimonials = document.querySelector("list-testimonials");
-      listTestimonials.innerHTML = '';
+      divSubmittor.innerHTML = `Submitted by ${submittorName}`;
+
+      divDescription.append(h2, price, description, divSubmittor);
+
+      const divTestimonials = document.createElement('div');
+      divTestimonials.classList.add('div-testimonials');
+
+      const listTestimonials = document.createElement('ul');
+      listTestimonials.classList.add('list-testimonials');
+
       for (let i = 0; i < campgroundObj["Comments"]; i++) {
         const comment = campgroundObj["Comments"][i];
 
@@ -47,6 +73,10 @@ const openCampgroundPage = (campground) => {
 
         listTestimonials.append(commentListItem);
       }
+
+      divTestimonials.append(listTestimonials);
+
+      main.append(imgCampground, divDescription, divTestimonials);
     }
   }
 
