@@ -56,7 +56,6 @@ const openCampgroundPage = (campground) => {
         const commentListItem = document.createElement('li');
         commentListItem.classList.add('list-item-testimonial');
 
-        const commentDiv = document.createElement('div');
         const commentAuthor = document.createElement('h3');
         commentAuthor.innerHTML = comment["Author"];
         
@@ -66,8 +65,7 @@ const openCampgroundPage = (campground) => {
         const commentBody = document.createElement('div');
         commentBody.innerHTML = comment["Comment"];
 
-        commentDiv.append(commentAuthor, commentTime, commentBody);
-        commentListItem.append(commentDiv);
+        commentListItem.append(commentAuthor, commentTime, commentBody);
 
         listTestimonials.append(commentListItem);
       }
