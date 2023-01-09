@@ -10,10 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const campground = e.target.getAttribute('data-campground');
 
       window.location.href = `./campgroundPage.html`;
-
-      window.campground = {
-        "Name": campground
-      };
+      localStorage.setItem('campgroundName', campground);
     });
   }
 });
