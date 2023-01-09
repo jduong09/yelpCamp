@@ -11,8 +11,8 @@ document.addEventListener('DOMContentLoaded', () => {
       window.campground = {
         "Name": campground
       };
-      
-      window.location.href = `./campgroundPage.html/${campground}`;
+
+      window.location.href = `./campgroundPage.html`;
     });
   }
 });
