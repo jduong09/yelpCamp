@@ -7,10 +7,6 @@ const openCampgroundPage = (campground) => {
 
 
       const campgroundObj = campgroundsList[campground];
-      console.log(campgroundObj);
-
-      window.location.href = './campgroundPage.html';
-
       const main = document.querySelector('main');
       main.innerHTML = '';
 
@@ -94,7 +90,7 @@ document.addEventListener('DOMContentLoaded', () => {
       e.preventDefault();
 
       const campground = e.target.getAttribute('data-campground');
-
+      window.location.href = './campgroundPage.html';
       openCampgroundPage(campground);
     });
   }
