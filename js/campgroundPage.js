@@ -82,5 +82,6 @@ const openCampgroundPage = (campground) => {
 
 document.addEventListener('DOMContentLoaded', () => {
   console.log(localStorage.getItem('campgroundName'));
-  // openCampgroundPage(campground);
+  const campground = localStorage.getItem('campgroundName');
+  openCampgroundPage(campground);
 })
