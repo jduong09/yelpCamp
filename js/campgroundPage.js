@@ -70,7 +70,7 @@ const openCampgroundPage = (campground) => {
 
       divTestimonials.append(listTestimonials);
 
-      main.append(imgCampground, divDescription, divTestimonials);
+      main.append(imgCampground, divCampgroundInfo, divTestimonials);
     }
   }
 
