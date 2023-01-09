@@ -19,6 +19,8 @@ const openCampgroundPage = (campground) => {
       imgCampground.src = campgroundObj["Image"];
       imgCampground.alt = `Image of ${campground}`;
 
+      const divDescription = document.createElement('div');
+
       const h2 = document.createElement('h2');
       h2.innerHTML = campgroundObj["Name"];
 
@@ -40,7 +42,9 @@ const openCampgroundPage = (campground) => {
       divSubmittor.innerHTML = `Submitted by `;
       divSubmittor.append(submittorName);
 
-      divCampgroundInfo.append(h2, price, description, divSubmittor);
+      divDescription.append(h2, price, description, divSubmittor);
+
+      divCampgroundInfo.append(imgCampground, divDescription);
 
       const divTestimonials = document.createElement('div');
       divTestimonials.classList.add('div-testimonials');
@@ -68,7 +72,18 @@ const openCampgroundPage = (campground) => {
         listTestimonials.append(commentListItem);
       }
 
-      divTestimonials.append(listTestimonials);
+      const linkAddComment = document.createElement('a');
+      linkAddComment.id = 'link-add-comment';
+      linkAddComment.href = 'newComment.html';
+
+      const imgChatBubble = document.createElement('img');
+      imgChatBubble.id = 'img-chat-bubble';
+      imgChatBubble.src = './Assets/Chat Bubble.svg';
+      imgChatBubble.alt = 'Chat bubble icon';
+      
+      linkAddComment.append(imgChatBubble, 'Leave a Review');
+
+      divTestimonials.append(listTestimonials, linkAddComment);
 
       main.append(imgCampground, divCampgroundInfo, divTestimonials);
     }
