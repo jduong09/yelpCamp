@@ -49,11 +49,9 @@ const openCampgroundPage = (campground) => {
 
       const listTestimonials = document.createElement('ul');
       listTestimonials.classList.add('list-testimonials');
-      console.log(campgroundObj["Comments"]);
 
-      for (let i = 0; i < campgroundObj["Comments"]; i++) {
+      for (let i = 0; i < campgroundObj["Comments"].length; i++) {
         const comment = campgroundObj["Comments"][i];
-        console.log(comment);
 
         const commentListItem = document.createElement('li');
         commentListItem.classList.add('list-item-testimonial');
