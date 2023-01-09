@@ -19,8 +19,6 @@ const openCampgroundPage = (campground) => {
       imgCampground.src = campgroundObj["Image"];
       imgCampground.alt = `Image of ${campground}`;
 
-      const divDescription = document.createElement('div');
-
       const h2 = document.createElement('h2');
       h2.innerHTML = campgroundObj["Name"];
 
@@ -42,7 +40,7 @@ const openCampgroundPage = (campground) => {
       divSubmittor.innerHTML = `Submitted by `;
       divSubmittor.append(submittorName);
 
-      divDescription.append(h2, price, description, divSubmittor);
+      divCampgroundInfo.append(h2, price, description, divSubmittor);
 
       const divTestimonials = document.createElement('div');
       divTestimonials.classList.add('div-testimonials');
