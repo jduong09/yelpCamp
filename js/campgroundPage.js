@@ -49,6 +49,7 @@ const openCampgroundPage = (campground) => {
 
       const listTestimonials = document.createElement('ul');
       listTestimonials.classList.add('list-testimonials');
+      console.log(campgroundObj["Comments"]);
 
       for (let i = 0; i < campgroundObj["Comments"]; i++) {
         const comment = campgroundObj["Comments"][i];
@@ -84,7 +85,6 @@ const openCampgroundPage = (campground) => {
 };
 
 document.addEventListener('DOMContentLoaded', () => {
-  console.log(localStorage.getItem('campgroundName'));
   const campground = localStorage.getItem('campgroundName');
   openCampgroundPage(campground);
 })
