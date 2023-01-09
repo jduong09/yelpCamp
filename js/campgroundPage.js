@@ -35,7 +35,8 @@ const openCampgroundPage = (campground) => {
       const divSubmittor = document.createElement('div');
       divSubmittor.classList.add('div-submittor');
 
-      const submittorName = document.getElementById('submittor-name');
+      const submittorName = document.createElement('span');
+      submittorName.id = 'submittor-name';
       submittorName.innerHTML = campgroundObj["Campground Submittor"];
 
       divSubmittor.innerHTML = `Submitted by ${submittorName}`;
