@@ -39,7 +39,8 @@ const openCampgroundPage = (campground) => {
       submittorName.id = 'submittor-name';
       submittorName.innerHTML = campgroundObj["Campground Submittor"];
 
-      divSubmittor.innerHTML = `Submitted by ${submittorName}`;
+      divSubmittor.innerHTML = `Submitted by `;
+      divSubmittor.append(submittorName);
 
       divDescription.append(h2, price, description, divSubmittor);
 
@@ -51,6 +52,7 @@ const openCampgroundPage = (campground) => {
 
       for (let i = 0; i < campgroundObj["Comments"]; i++) {
         const comment = campgroundObj["Comments"][i];
+        console.log(comment);
 
         const commentListItem = document.createElement('li');
         commentListItem.classList.add('list-item-testimonial');
