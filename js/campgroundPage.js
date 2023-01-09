@@ -16,7 +16,7 @@ const openCampgroundPage = (campground) => {
       divCampgroundInfo.classList.add('div-campground-info');
       const imgCampground = document.createElement('img');
       imgCampground.classList.add('img-campground');
-      imgCampground.src = `../Assets/Camp Images/Compressed Images/${campground}.jpg`;
+      imgCampground.src = campgroundObj["Image"];
       imgCampground.alt = `Image of ${campground}`;
 
       const divDescription = document.createElement('div');
