@@ -6,6 +6,7 @@ const openCampgroundPage = (campground) => {
       const campgroundsList = xhr.response;
 
       const campgroundObj = campgroundsList[campground];
+      console.log(campgroundObj);
 
       window.location.href = './campgroundPage.html';
 
