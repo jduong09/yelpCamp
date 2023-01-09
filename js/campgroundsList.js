@@ -8,11 +8,12 @@ document.addEventListener('DOMContentLoaded', () => {
       e.preventDefault();
 
       const campground = e.target.getAttribute('data-campground');
+
+      window.location.href = `./campgroundPage.html`;
+
       window.campground = {
         "Name": campground
       };
-
-      window.location.href = `./campgroundPage.html`;
     });
   }
 });
