@@ -8,8 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
       e.preventDefault();
 
       const campground = e.target.getAttribute('data-campground');
-      window.location.href = './campgroundPage.html';
-      window.campground = 'campground';
+      window.location.href = `./campgroundPage.html/${campground}`;
     });
   }
 });
