@@ -2,7 +2,7 @@
   "Mount Ulap": {
     "Name": "Mount Ulap",
     "Price": "104.99",
-    "Image": "../Assets/Camp Images/Compressed Images/Mount Ulap.jpg",
+    "Image": "../Assets/Camp Images/Compressed Images/Mount_Ulap.jpg",
     "Description": "Mount Ulap is a 7.7 kilometer moderately trafficked point-to-point trail located near Tuba, Benguet, Philippines that offers the chance to see wildlife and is rated as moderate. The trail is primarily used for hiking.",
     "Campground Submittor": "Andrew Mike",
     "Comments": [
@@ -26,7 +26,7 @@
   "Calaguas Islands": {
     "Name": "Calaguas Islands",
     "Price": "104.99",
-    "Image": "../Assets/Camp Images/Compressed Images/Calaguas Island.jpg",
+    "Image": "../Assets/Camp Images/Compressed Images/Calaguas_Island.jpg",
     "Description": "Mount Ulap is a 7.7 kilometer moderately trafficked point-to-point trail located near Tuba, Benguet, Philippines that offers the chance to see wildlife and is rated as moderate. The trail is primarily used for hiking.",
     "Campground Submittor": "Andrew Mike",
     "Comments": [
@@ -50,7 +50,7 @@
   "Onay Beach": {
     "Name": "Onay Beach",
     "Price": "104.99",
-    "Image": "../Assets/Camp Images/Compressed Images/Onay Beach.jpg",
+    "Image": "../Assets/Camp Images/Compressed Images/Onay_Beach.jpg",
     "Description": "Mount Ulap is a 7.7 kilometer moderately trafficked point-to-point trail located near Tuba, Benguet, Philippines that offers the chance to see wildlife and is rated as moderate. The trail is primarily used for hiking.",
     "Campground Submittor": "Andrew Mike",
     "Comments": [
@@ -71,10 +71,10 @@
       }
     ]
   },
-  "Seven Sisters": {
+  "Seven Sisters Waterfall": {
     "Name": "Seven Sisters Waterfall",
     "Price": "104.99",
-    "Image": "../Assets/Camp Images/Compressed Images/Seven Sisters Waterfall.jpg",
+    "Image": "../Assets/Camp Images/Compressed Images/Seven_Sisters_Waterfall.jpg",
     "Description": "Mount Ulap is a 7.7 kilometer moderately trafficked point-to-point trail located near Tuba, Benguet, Philippines that offers the chance to see wildlife and is rated as moderate. The trail is primarily used for hiking.",
     "Campground Submittor": "Andrew Mike",
     "Comments": [
@@ -98,7 +98,7 @@
   "Latik Riverside": {
     "Name": "Latik Riverside",
     "Price": "104.99",
-    "Image": "../Assets/Camp Images/Compressed Images/Latik Riverside.jpg",
+    "Image": "../Assets/Camp Images/Compressed Images/Latik_Riverside.jpg",
     "Description": "Mount Ulap is a 7.7 kilometer moderately trafficked point-to-point trail located near Tuba, Benguet, Philippines that offers the chance to see wildlife and is rated as moderate. The trail is primarily used for hiking.",
     "Campground Submittor": "Andrew Mike",
     "Comments": [
@@ -122,7 +122,7 @@
   "Buloy Springs": {
     "Name": "Buloy Springs",
     "Price": "104.99",
-    "Image": "../Assets/Camp Images/Compressed Images/Buloy Springs.jpg",
+    "Image": "../Assets/Camp Images/Compressed Images/Buloy_Springs.jpg",
     "Description": "Mount Ulap is a 7.7 kilometer moderately trafficked point-to-point trail located near Tuba, Benguet, Philippines that offers the chance to see wildlife and is rated as moderate. The trail is primarily used for hiking.",
     "Campground Submittor": "Andrew Mike",
     "Comments": [
