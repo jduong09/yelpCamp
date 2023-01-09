@@ -1,23 +1,14 @@
 const openCampgroundPage = (campground) => {
-  switch (campground) {
-    case 'Mount Ulap':
-      openCampgroundPage('Mount_Ulap');
-      break;
-    case 'Calaguas Islands':
-      openCampgroundPage('Calaguas_Islands')
-      break;
-    case 'Onay Beach':
-      openCampgroundPage('Onay_Beach');
-      break;
-    case 'Latik Riverside':
-      openCampgroundPage('Latik_Riverside');
-      break;
-    case 'Buloy Springs':
-    openCampgroundPage('Buloy_Springs');
-    break;
-    default:
-      break;
+  const xhr = new XMLHttpRequest();
+
+  xhr.onload = () => {
+    if (xhr.readyState === 4) {
+      console.log(xhr.response);
+    }
   }
+
+  xhr.open('GET', './campgrounds.json', true);
+  xhr.send();
 };
 
 document.addEventListener('DOMContentLoaded', () => {
