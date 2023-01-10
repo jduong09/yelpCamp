@@ -85,7 +85,23 @@ const openCampgroundPage = (campground) => {
 
       divTestimonials.append(listTestimonials, linkAddComment);
 
-      main.append(divCampgroundInfo, divTestimonials);
+      /* 
+      <div class="div-campground-location">
+        <img id="img-map-mount-ulap" src="./Assets/Map.png" alt="Map of Mount Ulap"/>
+      </div>
+      */
+
+      const divCampgroundLocation = document.createElement('div');
+      divCampgroundLocation.classList.add('div-campground-location');
+
+      const imgMap = document.createElement('img');
+      imgMap.id = 'img-map-mount-ulap';
+      imgMap.src = campgroundObj["Map"];
+      imgMap.alt = 'Map of Mount Ulap';
+
+      divCampgroundLocation.append(imgMap);
+
+      main.append(divCampgroundInfo, divTestimonials, divCampgroundLocation);
     }
   }
 

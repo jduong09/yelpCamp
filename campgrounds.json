@@ -21,13 +21,14 @@
         "Time": "3 days",
         "Comment": "Definitely recommend going there, not too far and not a lot of people toi ruin the experience."
       }
-    ]
+    ],
+    "Map": "./Assets/Map.png"
   },
   "Calaguas Islands": {
     "Name": "Calaguas Islands",
     "Price": "104.99",
     "Image": "./Assets/Camp_Images/Compressed_Images/Calaguas_Island.jpg",
-    "Description": "Mount Ulap is a 7.7 kilometer moderately trafficked point-to-point trail located near Tuba, Benguet, Philippines that offers the chance to see wildlife and is rated as moderate. The trail is primarily used for hiking.",
+    "Description": "Calaguas Islands feature campers and backpackers that visit Mahabang Buhangin to experience its powdery white sands.",
     "Campground Submittor": "Andrew Mike",
     "Comments": [
       {
@@ -45,13 +46,14 @@
         "Time": "3 days",
         "Comment": "Definitely recommend going there, not too far and not a lot of people toi ruin the experience."
       }
-    ]
+    ],
+    "Map": "./Assets/Map.png"
   },
   "Onay Beach": {
     "Name": "Onay Beach",
     "Price": "104.99",
     "Image": "./Assets/Camp_Images/Compressed_Images/Onay_Beach.jpg",
-    "Description": "Mount Ulap is a 7.7 kilometer moderately trafficked point-to-point trail located near Tuba, Benguet, Philippines that offers the chance to see wildlife and is rated as moderate. The trail is primarily used for hiking.",
+    "Description": "The prized possession of Brgy. This golden beach is the most popular swimming spot in the island of Laoang, located a couple of minutes off the coast of the north-eastern tip of Northern Samar.",
     "Campground Submittor": "Andrew Mike",
     "Comments": [
       {
@@ -69,13 +71,14 @@
         "Time": "3 days",
         "Comment": "Definitely recommend going there, not too far and not a lot of people toi ruin the experience."
       }
-    ]
+    ],
+    "Map": "./Assets/Map.png"
   },
   "Seven Sisters Waterfall": {
     "Name": "Seven Sisters Waterfall",
     "Price": "104.99",
     "Image": "./Assets/Camp_Images/Compressed_Images/Seven_Sisters_Waterfall.jpg",
-    "Description": "Mount Ulap is a 7.7 kilometer moderately trafficked point-to-point trail located near Tuba, Benguet, Philippines that offers the chance to see wildlife and is rated as moderate. The trail is primarily used for hiking.",
+    "Description": "The 39th tallest waterfall in Norway, this waterfall consists of seven separate streams and the tallest of the seven has a free fall that measures 250 metres.",
     "Campground Submittor": "Andrew Mike",
     "Comments": [
       {
@@ -93,13 +96,14 @@
         "Time": "3 days",
         "Comment": "Definitely recommend going there, not too far and not a lot of people toi ruin the experience."
       }
-    ]
+    ],
+    "Map": "./Assets/Map.png"
   },
   "Latik Riverside": {
     "Name": "Latik Riverside",
     "Price": "104.99",
     "Image": "./Assets/Camp_Images/Compressed_Images/Latik_Riverside.jpg",
-    "Description": "Mount Ulap is a 7.7 kilometer moderately trafficked point-to-point trail located near Tuba, Benguet, Philippines that offers the chance to see wildlife and is rated as moderate. The trail is primarily used for hiking.",
+    "Description": "Omg this might be a fake campground, I'm kind of hurt.",
     "Campground Submittor": "Andrew Mike",
     "Comments": [
       {
@@ -117,13 +121,14 @@
         "Time": "3 days",
         "Comment": "Definitely recommend going there, not too far and not a lot of people toi ruin the experience."
       }
-    ]
+    ],
+    "Map": "./Assets/Map.png"
   },
   "Buloy Springs": {
     "Name": "Buloy Springs",
     "Price": "104.99",
     "Image": "./Assets/Camp_Images/Compressed_Images/Buloy_Springs.jpg",
-    "Description": "Mount Ulap is a 7.7 kilometer moderately trafficked point-to-point trail located near Tuba, Benguet, Philippines that offers the chance to see wildlife and is rated as moderate. The trail is primarily used for hiking.",
+    "Description": "Ayo, I think this campsite is fake too!?",
     "Campground Submittor": "Andrew Mike",
     "Comments": [
       {
@@ -141,6 +146,7 @@
         "Time": "3 days",
         "Comment": "Definitely recommend going there, not too far and not a lot of people toi ruin the experience."
       }
-    ]
+    ],
+    "Map": "./Assets/Map.png"
   }
 }
