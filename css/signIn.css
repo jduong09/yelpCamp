@@ -97,3 +97,22 @@ label {
   margin-bottom: .25rem;
   font-weight: 700;
 }
+
+@media (min-width: 768px) {
+  header, .div-testimonial {
+    padding: 2.5rem;
+  }
+
+  #div-sign-in {
+    padding: 0 2.5rem 2.5rem 2.5rem;
+  }
+
+  #div-sign-in > h2 {
+    width: 100%;
+    font-size: 2.5rem;
+  }
+
+  #div-sign-in > form {
+    width: 80%;
+  }
+}

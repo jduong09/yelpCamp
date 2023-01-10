@@ -64,3 +64,32 @@
   width: 160px;
   height: 42px;
 }
+
+@media (min-width: 768px) {
+  #img-hero {
+    content: url('../Assets/Hero Image (Tablet and Mobile).jpg');
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+  }
+
+  header, .div-landing-description  {
+    padding: 2rem;
+  }
+
+  .div-landing-description > h2 {
+    font-size: 3rem;
+  }
+
+  footer {
+    padding: 0 2rem 2rem 2rem;
+  }
+
+  .list-partners {
+    justify-content: flex-start;
+  }
+
+  .list-partners > li {
+    margin-right: 1.5rem;
+  }
+}

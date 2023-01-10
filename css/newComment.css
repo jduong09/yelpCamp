@@ -67,3 +67,21 @@ textarea {
   color: hsl(0, 0%, 100%);
   font-weight: 700;
 }
+
+@media (min-width: 768px) {
+  header {
+    padding: 2rem;
+  }
+
+  main {
+    padding: 0 2rem 2rem 2rem;
+  }
+
+  #form-new-comment {
+    width: 80%;
+  }
+
+  footer {
+    padding: 2rem 2rem 4rem 2rem;
+  }
+}
