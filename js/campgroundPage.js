@@ -85,12 +85,6 @@ const openCampgroundPage = (campground) => {
 
       divTestimonials.append(listTestimonials, linkAddComment);
 
-      /* 
-      <div class="div-campground-location">
-        <img id="img-map-mount-ulap" src="./Assets/Map.png" alt="Map of Mount Ulap"/>
-      </div>
-      */
-
       const divCampgroundLocation = document.createElement('div');
       divCampgroundLocation.classList.add('div-campground-location');
 

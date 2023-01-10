@@ -1,4 +1,4 @@
-#img-nav-hamburger, #input-submit, #btn-add-campground {
+#img-nav-hamburger, #input-submit, #btn-add-campground, .btn-view-campground {
   cursor: pointer;
 }
 
@@ -95,4 +95,41 @@ main {
   font-weight: 700;
   border: 1px solid black;
   border-radius: 4px;
+}
+
+@media (min-width: 768px) {
+  .div-search-main {
+    padding: 4rem;
+  }
+
+  .div-search-main > div {
+    width: 65%;
+  }
+
+  .div-search-main > form {
+    display: flex;
+  }
+
+  #input-search {
+    width: auto;
+    margin-right: 1rem;
+  }
+
+  #input-submit {
+    width: 20%;
+  }
+
+  .list-campgrounds {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .list-item-campground {
+    width: 48.5%;
+  }
+
+  .img-campground {
+    height: auto;
+  }
 }
