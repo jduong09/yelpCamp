@@ -92,5 +92,22 @@ footer {
   padding: 0 2rem 3rem 2rem;
 }
 
+@media (min-width: 768px) {
+  header {
+    padding: 2rem;
+  }
+
+  main {
+    padding: 0rem 2rem 2rem 2rem;
+  }
+
+  .div-campground-info, .div-testimonials, .div-campground-location {
+    padding: 3rem;
+  }
+
+  .img-campground, .div-campground-info > div > h2, .div-campground-info > div > span, .div-campground-description {
+    margin-bottom: 1.5rem;
+  }
+}
 
 
