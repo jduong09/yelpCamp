@@ -37,7 +37,7 @@ input, textarea, button {
   width: 100%;
   margin-top: .75rem;
   padding: 1.25rem;
-  background-color: hsl(0, 2%, 84%);
+  background-color: hsl(0, 0%, 96%);
   border-radius: 4px;
 }
 
@@ -66,5 +66,12 @@ textarea {
 
   footer {
     padding: 2rem 2rem 4rem 2rem;
+  }
+}
+
+@media (min-width: 1400px) {
+  .div-form-new-campground {
+    width: 50%;
+    margin: 0 auto;
   }
 }

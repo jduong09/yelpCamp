@@ -2,11 +2,6 @@
   cursor: pointer;
 }
 
-
-main {
-  padding: 0 1rem 3rem 1rem;
-}
-
 .div-search-main {
   padding: 2rem;
   background-color: hsla(30, 35%, 64%, 0.10);
@@ -131,5 +126,15 @@ main {
 
   .img-campground {
     height: auto;
+  }
+}
+
+@media (min-width: 1400px) {
+  main {
+    padding: 0 8rem 2rem 8rem;
+  }
+  
+  .list-item-campground {
+    width: 32.5%;
   }
 }

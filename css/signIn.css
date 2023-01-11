@@ -44,7 +44,7 @@ label {
   width: 100%;
   padding: 1.5rem;
   margin-top: 1rem;
-  background-color: #f0f0f0;
+  background-color: hsl(0, 0%, 96%);
   border-radius: 4px;
   font-size: 1rem;
 }
@@ -71,7 +71,7 @@ label {
 
 .div-testimonial {
   padding: 3rem 1rem;
-  background-color: #f1e4d4;
+  background-color: hsla(30, 35%, 64%, 0.10);
 }
 
 .div-testimonial > span {

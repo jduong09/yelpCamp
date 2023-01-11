@@ -8,5 +8,23 @@ document.addEventListener('DOMContentLoaded', () => {
     } else {
       menuNav.classList.add('hide');
     }
-  })
+  });
+
+  if (window.innerWidth >= 1400) {
+    imgNavHamburger.classList.add('hide');
+    menuNav.classList.remove('hide');
+  } else {
+    imgNavHamburger.classList.remove('hide');
+    menuNav.classList.add('hide');
+  }
+
+  window.addEventListener('resize', () => {
+    if (window.innerWidth >= 1400) {
+      imgNavHamburger.classList.add('hide');
+      menuNav.classList.remove('hide');
+    } else {
+      imgNavHamburger.classList.remove('hide');
+      menuNav.classList.add('hide');
+    }
+  });
 });

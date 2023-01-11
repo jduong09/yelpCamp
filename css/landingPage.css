@@ -67,22 +67,18 @@
 
 @media (min-width: 768px) {
   #img-hero {
-    content: url('../Assets/Hero Image (Tablet and Mobile).jpg');
+    content: url('../Assets/Hero Image.jpg');
     width: 100%;
     height: auto;
     margin-left: 0;
   }
 
-  header, .div-landing-description  {
+  .div-landing-description  {
     padding: 2rem;
   }
 
   .div-landing-description > h2 {
     font-size: 3rem;
-  }
-
-  footer {
-    padding: 0 2rem 2rem 2rem;
   }
 
   .list-partners {
@@ -91,5 +87,38 @@
 
   .list-partners > li {
     margin-right: 1.5rem;
+  }
+}
+
+@media (min-width: 1400px) {
+  body {
+    background-color: hsla(30, 35%, 64%, 0.10);
+  }
+
+  header, .div-landing-description {
+    padding: 2rem 8rem 6rem 8rem;
+    width: 60%;
+  }
+
+  .div-landing {
+    display: flex;
+  }
+
+  #img-hero {
+    order: 2;
+    width: auto;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .div-landing-description {
+    order: 1;
+    padding-bottom: 2rem;
+  }
+
+  .div-landing-description > h2, .div-landing-description > div {
+    width: 70%;
   }
 }

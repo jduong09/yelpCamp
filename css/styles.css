@@ -67,3 +67,47 @@ h2 {
 footer {
   padding: 0 1rem 2rem 1rem;
 }
+
+@media (min-width: 768px) {
+  header {
+    padding: 2rem;
+  }
+
+  footer {
+    padding: 0 2rem 2rem 2rem;
+  }
+}
+
+@media (min-width: 1400px) {
+  header {
+    padding: 2rem 8rem;
+  }
+
+  nav {
+    width: 90%;
+  }
+
+  nav > ul {
+    position: initial;
+    right: initial;
+    top: initial;
+    width: 100%;
+    border: none;
+    background-color: white;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  nav > ul > li:first-of-type {
+    margin-right: auto;
+    margin-left: 0;
+  }
+
+  nav > ul > li {
+    border-bottom: none;
+  }
+
+  footer {
+    padding: 2rem 8rem 4rem 8rem;
+  }
+}
