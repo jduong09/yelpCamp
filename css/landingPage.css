@@ -67,7 +67,6 @@
 
 @media (min-width: 768px) {
   #img-hero {
-    content: url('../Assets/Hero Image.jpg');
     width: 100%;
     height: auto;
     margin-left: 0;
@@ -105,6 +104,7 @@
   }
 
   #img-hero {
+    content: url('../Assets/Hero Image.jpg');
     order: 2;
     width: auto;
     height: 100%;
