@@ -34,15 +34,6 @@
   margin-right: .5rem;
 }
 
-#link-view-campgrounds {
-  display: block;
-  width: fit-content;
-  padding: 1rem 1.5rem;
-  color: hsl(0, 0%, 100%);
-  background-color: hsl(0, 0%, 0%);
-  border-radius: 4px;
-}
-
 .list-partners {
   display: flex;
   justify-content: space-between;

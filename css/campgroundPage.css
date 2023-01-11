@@ -111,6 +111,10 @@ footer {
 }
 
 @media (min-width: 1400px) {
+  header {
+    padding: 2rem 8rem;
+  }
+
   main {
     display: flex;
     flex-wrap: wrap;
@@ -149,6 +153,10 @@ footer {
   .div-campground-location {
     order: 1;
     height: fit-content;
+  }
+
+  footer {
+    padding: 2rem 8rem;
   }
 }
 
