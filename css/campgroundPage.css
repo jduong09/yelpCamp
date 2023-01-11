@@ -71,7 +71,18 @@ main {
   padding: 1rem 1.5rem;
   color: hsl(0, 0%, 100%);
   background: hsl(0, 0%, 0%);
+  border: 2px solid transparent;
   border-radius: 4px;
+}
+
+#link-add-comment:hover {
+  color: hsl(0, 0%, 0%);
+  background-color: hsl(0, 0%, 100%);
+  border-color: hsl(0, 0%, 0%);
+}
+
+#link-add-comment:hover > svg > g > path {
+  fill: hsl(0, 0%, 0%);
 }
 
 #img-chat-bubble {

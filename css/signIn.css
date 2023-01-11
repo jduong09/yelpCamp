@@ -15,6 +15,10 @@ header {
   font-size: 1.15rem;
 }
 
+#link-back-campgrounds:hover, .div-sign-up > a:hover {
+  font-weight: 700;
+}
+
 #link-back-campgrounds > svg {
   margin-right: .25rem;
 }
@@ -57,14 +61,20 @@ label {
   padding: 1rem;
   margin-bottom: 1.5rem;
   background-color: hsl(0, 0%, 0%);
+  border: 2px solid transparent;
   color: hsl(0, 0%, 100%);
   border-radius: 4px;
   font-weight: 700;
   font-size: 1.15rem;
 }
 
-.div-sign-up > button {
-  font-weight: 700;
+#input-submit:hover {
+  background-color: hsl(0, 0%, 100%);
+  border-color: hsl(0, 0%, 0%);
+  color: hsl(0, 0%, 0%);
+}
+
+.div-sign-up > a {
   color: hsl(193, 91%, 57%);
   text-decoration: underline;
 }

@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', () => {
     linkLogin.href = './signIn.html';
     linkCreate.innerHTML = 'Create an account';
     linkCreate.href = './signUp.html';
-    linkCreate.classList.add('btn-cta');
+    linkCreate.classList.add('btn-create-account');
 
     listItemHome.append(linkHome);
     listItemLogin.append(linkLogin);

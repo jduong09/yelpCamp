@@ -47,8 +47,15 @@ textarea {
 
 #btn-submit {
   background-color: hsl(0, 0%, 0%);
+  border: 2px solid transparent;
   color: hsl(0, 0%, 100%);
   font-weight: 700;
+}
+
+#btn-submit:hover {
+  background-color: hsl(0, 0%, 100%);
+  border-color: hsl(0, 0%, 0%);
+  color: hsl(0, 0%, 0%);
 }
 
 @media (min-width: 768px) {
